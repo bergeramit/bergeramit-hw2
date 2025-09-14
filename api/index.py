@@ -9,7 +9,7 @@ app = Flask(__name__)
 def text_to_number(text):
     """Convert English text number to integer"""
     # Remove any non-alphanumeric characters and convert to lowercase
-    text = re.sub(r'[^a-zA-Z\s-]', '', text.lower())
+    text = re.sub(r'[^a-zA-Z]', '', text.lower())
     
     # Special case for zero
     if text in ['zero', 'nil']:
