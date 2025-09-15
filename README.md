@@ -1,5 +1,7 @@
 # Numeric Converter - cs1060-hw2-base
 
+Vercel App Link: https://bergeramit-hw2-git-bugfix-bergeramits-projects.vercel.app/
+
 A web-based application that converts numbers between different formats including:
 - English text (e.g., "one hundred twenty-three")
 - Binary
